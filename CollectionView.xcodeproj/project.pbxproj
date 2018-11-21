@@ -12,6 +12,7 @@
 		DD2861EC21A5112F000BBCF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2861EA21A5112F000BBCF0 /* Main.storyboard */; };
 		DD2861EE21A51132000BBCF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2861ED21A51132000BBCF0 /* Assets.xcassets */; };
 		DD2861F121A51132000BBCF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2861EF21A51132000BBCF0 /* LaunchScreen.storyboard */; };
+		DD2861F921A52EBC000BBCF0 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2861F821A52EBC000BBCF0 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DD2861ED21A51132000BBCF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2861F021A51132000BBCF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2861F221A51132000BBCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2861F821A52EBC000BBCF0 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DD2861E621A5112F000BBCF0 /* AppDelegate.swift */,
 				DD2861E821A5112F000BBCF0 /* ViewController.swift */,
+				DD2861F821A52EBC000BBCF0 /* MyCollectionViewCell.swift */,
 				DD2861EA21A5112F000BBCF0 /* Main.storyboard */,
 				DD2861ED21A51132000BBCF0 /* Assets.xcassets */,
 				DD2861EF21A51132000BBCF0 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				DD2861E921A5112F000BBCF0 /* ViewController.swift in Sources */,
 				DD2861E721A5112F000BBCF0 /* AppDelegate.swift in Sources */,
+				DD2861F921A52EBC000BBCF0 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +287,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7H2A5JN63R;
+				DEVELOPMENT_TEAM = DXMXB4LA5C;
 				INFOPLIST_FILE = CollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sss.CollectionView;
+				PRODUCT_BUNDLE_IDENTIFIER = sss.Roughjhbvjhgv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,13 +305,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7H2A5JN63R;
+				DEVELOPMENT_TEAM = DXMXB4LA5C;
 				INFOPLIST_FILE = CollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sss.CollectionView;
+				PRODUCT_BUNDLE_IDENTIFIER = sss.Roughjhbvjhgv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
